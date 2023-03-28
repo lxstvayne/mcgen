@@ -1,0 +1,6 @@
+version: '3'
+
+tasks:
+  distribute:
+    cmds:
+      - poetry run python -m scripts.distribute ./static/blocks ./static/palette.json

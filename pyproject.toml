@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "graphmine"
+version = "0.1.0"
+description = ""
+authors = ["lxstvayne <ssavi2002@yandex.ru>"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.11.2"
+cement = {extras = ["colorlog"], version = "^3.0.8"}
+pydantic = "^1.10.7"
+Pillow = "^9.4.0"
+numpy = "^1.24.2"
+rich = "^13.3.3"
+mcpi = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
